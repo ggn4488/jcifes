@@ -1,0 +1,103 @@
+.sub-titulo{
+    font-weight: 500;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+ul{
+    display: block;
+}
+
+.logo-incubadora{
+    max-width:60%!important;   
+}
+
+@media (max-width: 600px) {
+    
+    .logo-incubadora{
+        max-width:95%!important; 
+    }
+    
+    .titulo-principal {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 80px;
+        color: white;
+        font-size: 2.5em!important;
+        font-weight: 700;
+        text-shadow: 2px 2px black;
+    }
+    
+    .medio-destaque{
+        font-size:1rem!important;
+    }
+
+    .texto-medio-destaque{
+        font-size:1.2rem!important;
+    }
+
+    .sub-titulo-medio-destaque{
+        font-weight: 500;
+        font-size:1.4rem!important;
+    }
+    
+    .icon-destaque{
+        font-size:3rem!important;
+    }
+    
+    .texto-semi-destaque{
+        font-size:1.2rem!important;
+    }
+
+}
+
+.texto-semi-destaque{
+    font-size:1.4rem;
+}
+
+.icon-destaque{
+    font-size:8rem;
+}
+
+.medio-destaque{
+    font-size:1.4rem;
+}
+
+.texto-medio-destaque{
+    font-size:1.3rem;
+}
+
+.sub-titulo-medio-destaque{
+    font-weight: 500;
+    font-size:1.8rem;
+}
+
+table tr td p{
+    font-size: 1.1rem;
+    margin-bottom: 0.1rem;
+}
+
+table thead tr td{
+    font-size: 1.2rem;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    color: white;
+    font-size: 4.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+
+.titulo-principal-sub {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    /*text-shadow: 2px 2px black;*/
+}
+
+.titulo-secao{
+    color:#1b5e20;
+}
